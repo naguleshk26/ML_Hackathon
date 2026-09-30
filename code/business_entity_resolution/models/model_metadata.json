@@ -1,0 +1,35 @@
+{
+  "model_type": "LightGBM Gradient Boosted Decision Trees",
+  "sample_size": 15000,
+  "features": [
+    "name_token_set_ratio",
+    "name_token_sort_ratio",
+    "name_ratio",
+    "name_partial_ratio",
+    "addr_token_set_ratio",
+    "addr_token_sort_ratio",
+    "addr_ratio",
+    "num_jaccard",
+    "has_shared_num",
+    "name_len_diff",
+    "shared_keys_count",
+    "source_is_s2"
+  ],
+  "feature_importances": {
+    "addr_token_set_ratio": 636,
+    "name_partial_ratio": 517,
+    "name_len_diff": 504,
+    "shared_keys_count": 487,
+    "name_token_set_ratio": 449,
+    "name_ratio": 449,
+    "addr_token_sort_ratio": 372,
+    "name_token_sort_ratio": 358,
+    "num_jaccard": 292,
+    "addr_ratio": 280,
+    "source_is_s2": 141,
+    "has_shared_num": 15
+  },
+  "optimal_threshold": 0.8,
+  "val_macro_f05": 0.9526,
+  "trained_at": "2026-09-30 13:13:31"
+}
